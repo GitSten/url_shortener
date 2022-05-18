@@ -1,0 +1,19 @@
+We want a service that shortens urls.
+
+So, when a user bring to our website a long url:
+"google.com/api/location/migthies/263242424?arm=205gh"
+
+we want to give him istead a shortened version of the url, that send him to
+the same link:
+
+The short version should look like this:
+
+
+localhost: 8000/abcdAB91
+
+
+The short url contains a max of 8 characters after the root of the website( localhost:8000/)
+
+The number of possibilities is (26 + 26 + 10) **8
+
+ 
